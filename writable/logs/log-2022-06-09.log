@@ -1,0 +1,152 @@
+CRITICAL - 2022-06-09 15:15:51 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-09 15:27:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-09 15:28:12 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-09 15:28:25 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-06-09 08:57:02 --> Call to undefined method App\Controllers\Backend\Articel::initController()
+in SYSTEMPATH\CodeIgniter.php on line 861.
+ 1 SYSTEMPATH\CodeIgniter.php(459): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:03:56 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:04:34 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:04:35 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:04:36 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:04:54 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:05:51 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:05:52 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:13:47 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:30:37 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:30:39 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:02 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:04 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:04 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:25 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:26 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:26 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:27 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-06-09 12:37:27 --> Too few arguments to function App\Controllers\Backend\Article\CreateArticle::index(), 0 passed in C:\xampp\htdocs\ProjectOpinia\system\CodeIgniter.php on line 898 and exactly 2 expected
+in APPPATH\Controllers\Backend\Article\CreateArticle.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Backend\Article\CreateArticle->index()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Article\CreateArticle))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

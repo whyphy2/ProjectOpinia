@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "5f9f90b7-31f9-4cb4-88d4-9e80c470f44e",
+		"name": "Development",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21410729"
+	},
+	"item": [
+		{
+			"name": "Article",
+			"item": [
+				{
+					"name": "CRUD Article",
+					"item": [
+						{
+							"name": "CREATE ARTICLE",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsInVuYW1lIjoiRmVyaSBTZXRpYXdhbiIsInVlbWFpbCI6ImZlcmlzZXRpYXdhbjIzOUBnbWFpbC5jb20iLCJ1cGFzc3dvcmQiOiIkMnkkMTAkSm9WcG1yUTY0RlYzVWlRa0NuR3BVLlVmSWVJUXBEZDc1aU9waTc5dUdQQWVoVUJFQWxyV1ciLCJ1cGhvbmUiOiIwODEyOTk2NTEyOTQifQ.1pfF1UN9F19_mGx2wHGtrf4SBFtVWqX9nMXfQzEPsCQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\" : \"Lorem Ipsum 23\",\r\n    \"description\" : \"Lorem Ipsum is simply dummy\",\r\n    \"type\" : 1,\r\n    \"user\" : 1\r\n\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/Posting",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"Posting"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DELETE ARTICLE",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsInVuYW1lIjoiRmVyaSBTZXRpYXdhbiIsInVlbWFpbCI6ImZlcmlzZXRpYXdhbjIzOUBnbWFpbC5jb20iLCJ1cGFzc3dvcmQiOiIkMnkkMTAkSm9WcG1yUTY0RlYzVWlRa0NuR3BVLlVmSWVJUXBEZDc1aU9waTc5dUdQQWVoVUJFQWxyV1ciLCJ1cGhvbmUiOiIwODEyOTk2NTEyOTQifQ.1pfF1UN9F19_mGx2wHGtrf4SBFtVWqX9nMXfQzEPsCQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/delete/21",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"delete",
+										"21"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UPDATE ARTICLE",
+							"protocolProfileBehavior": {
+								"disabledSystemHeaders": {}
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsInVuYW1lIjoiRmVyaSBTZXRpYXdhbiIsInVlbWFpbCI6ImZlcmlzZXRpYXdhbjIzOUBnbWFpbC5jb20iLCJ1cGFzc3dvcmQiOiIkMnkkMTAkSm9WcG1yUTY0RlYzVWlRa0NuR3BVLlVmSWVJUXBEZDc1aU9waTc5dUdQQWVoVUJFQWxyV1ciLCJ1cGhvbmUiOiIwODEyOTk2NTEyOTQifQ.1pfF1UN9F19_mGx2wHGtrf4SBFtVWqX9nMXfQzEPsCQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\" : \"Loreewwerweeeem\",\r\n    \"description\" : \"ABCDEFFFF\",\r\n    \"type\" : \"1\",\r\n    \"user\" : \"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/update/21",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"update",
+										"21"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "VIEW ARTICLE",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiMSIsInVuYW1lIjoiRmVyaSBTZXRpYXdhbiIsInVlbWFpbCI6ImZlcmlzZXRpYXdhbjIzOUBnbWFpbC5jb20iLCJ1cGFzc3dvcmQiOiIkMnkkMTAkSm9WcG1yUTY0RlYzVWlRa0NuR3BVLlVmSWVJUXBEZDc1aU9waTc5dUdQQWVoVUJFQWxyV1ciLCJ1cGhvbmUiOiIwODEyOTk2NTEyOTQifQ.1pfF1UN9F19_mGx2wHGtrf4SBFtVWqX9nMXfQzEPsCQ",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "http://localhost:8080",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080"
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "01. REGISTER ACCOUNT",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\" : \"Feri Setiawan\",\r\n    \"email\":\"ferisetiawan239@gmail.com\",\r\n    \"password\" : \"abcdef\",\r\n    \"phone\": \"081299651294\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/register",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"register"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "02. REQUEST LOGIN",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "email",
+										"value": "ferisetiawan239@gmail.com",
+										"type": "text"
+									},
+									{
+										"key": "password",
+										"value": "abcdefg",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n   \"email\" : \"ferisetiawan239@gmail.com\",\r\n   \"password\" : \"abcdef\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GETINFORMATION TOKEN",
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjEzNTY5OTk1MjQsIm5iZiI6MTM1NzAwMDAwMCwidWlkIjoiNCIsInVuYW1lIjoiIiwidWVtYWlsIjoiZmVyaXNldGlhd2FuMjM5QGdtYWlsLmNvbSIsInVwYXNzd29yZCI6IiQyeSQxMCRkckhISzZzYkoyNnZnT0Y1clZ2QU9lZ1ZCMnI2R0tkUENtMFZJSjVuVGMzWm5IVE5NZGJxbSIsInVwaG9uZSI6IjA4MTI5OTY1MTI5NCJ9.eBInkEFDYKp06OdJeOcqg9AOHgGjAbFX3WMvU1sWAA4",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/isme",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"isme"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
