@@ -6,7 +6,7 @@
 
 ## Route Mapping
 
-| Laravel                                                         | Kong                                                                  | HTTP Method |
+| CodeIgniter                                                     | Kong                                                                  | HTTP Method |
 | --------------------------------------------------------------- | --------------------------------------------------------------------- | :---------- |
 | `/api/article`                                                  | `/api/article`                                                        | GET         |
 | `/api/article`                                                  | `/api/article`                                                        | POST        |
