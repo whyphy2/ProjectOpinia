@@ -5,10 +5,11 @@
 Request :
 
 - Method : POST
-- Endpoint : /api/article
+- Endpoint : /Posting
 - Header :
   - Content-Type : application/json
   - Accept : application/json
+  - Authorization : Bearer Token
 - Body :
 
   ```json
@@ -36,9 +37,10 @@ Request :
 Request :
 
 - Method : GET
-- Endpoint : /api/article
+- Endpoint : /
 - Header :
   - Accept : application/json
+  - Authorization : Bearer Token
 - Response :
 
   ```json
@@ -65,10 +67,11 @@ Request :
 Request :
 
 - Method : PUT
-- Endpoint : /api/article/{id}
+- Endpoint : /update/{id}
 - Header :
   - Content-Type : application/json
   - Accept : application/json
+  - Authorization : Bearer Token
 - Body :
 
   ```json
@@ -84,7 +87,6 @@ Request :
 
   ```json
   {
-    "success": true,
     "message": "Update article success"
   }
   ```
@@ -94,17 +96,17 @@ Request :
 Request :
 
 - Method : DELETE
-- Endpoint : /api/article/{id}
+- Endpoint : /delete/{id}
 - Header :
   - Content-Type : application/json
   - Accept : application/json
+  - Authorization : Bearer Token
   ```
 
 - Response :
 
   ```json
   {
-    "success": true,
     "message": "Delete article success"
   }
   ```
