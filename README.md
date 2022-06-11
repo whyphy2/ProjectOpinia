@@ -6,7 +6,7 @@
 
 ## Route Mapping
 
-| CodeIgniter                                                     | Kong                                                                  | HTTP Method |
+| CodeIgniter                                                     |                                                                       | HTTP Method |
 | --------------------------------------------------------------- | --------------------------------------------------------------------- | :---------- |
 | `/api/article`                                                  | `/api/article`                                                        | GET         |
 | `/api/article`                                                  | `/api/article`                                                        | POST        |
