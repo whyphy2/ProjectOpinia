@@ -14,7 +14,9 @@
 | `/api/article/{id}`                                             | `/api/article/{id}`                                                   | DELETE      |
 
 ## POSTMAN
-Import POSTMAN in file *[Import HERE](Development.postman_collection.json) to use project Test
+Pengujian menggunakan POSTMAN 
+silahkan import POSTMAN yang sudah di buat.
+[Import HERE](Development.postman_collection.json) 
 
-## AFTER MAKE MIGRATE DATABASE
-setelah migrate database input data pada table post_type
+## AFTER MIGRATE DATABASE
+setelah migrate database input data pada table post_type karena tidak membuat backend untuk menginput table tersebut
